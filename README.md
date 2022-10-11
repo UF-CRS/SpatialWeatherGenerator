@@ -2,11 +2,11 @@
 
 Generate regional preciptitation, temperature, and solar radiation data that is spatially correlated.
 
-Calibrates on [NASA POWER](data https://power.larc.nasa.gov/)
+Calibrates on [NASA POWER](https://power.larc.nasa.gov/)
 
 
 ## Usage
-```
+```python
 import datetime as dt
 import geopandas as gpd
 import sgen
@@ -18,7 +18,7 @@ region = gpd.read_file('region.geojson').geometry[0]
 # Builds generator at 0.5 deg resolution and calibrates on NASA POWER historical archive.
 generator = sgen.build_spatial_weather_generator(region)
 
-start_date = dt.date(2020, 1, )
+start_date = dt.date(2020, 1, 1)
 num_days = 2000
 
 # Outputs xarray in WGS84 projection with ppt, max and min temp, and srad
