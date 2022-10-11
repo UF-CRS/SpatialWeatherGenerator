@@ -21,9 +21,9 @@ generator = sgen.build_spatial_weather_generator(region)
 start_date = dt.date(2020, 1, 1)
 num_days = 2000
 
-# Outputs xarray in WGS84 projection with ppt, max and min temp, and srad
+# Outputs xarray on region in WGS84 projection with daily ppt, max and min temp, and srad
+# on a 0.5 deg grid
 generated_weather = generator.simulate_weather(start_date, num_days)
-
 
 ```
 
