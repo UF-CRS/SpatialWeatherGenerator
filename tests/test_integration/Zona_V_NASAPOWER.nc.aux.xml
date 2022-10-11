@@ -1,0 +1,60 @@
+<PAMDataset>
+  <Subdataset name="PRECTOTCORR">
+    <PAMDataset>
+      <PAMRasterBand band="1">
+        <Histograms>
+          <HistItem>
+            <HistMin>1.160000048577785</HistMin>
+            <HistMax>5.079999960958958</HistMax>
+            <BucketCount>48</BucketCount>
+            <IncludeOutOfRange>0</IncludeOutOfRange>
+            <Approximate>0</Approximate>
+            <HistCounts>1|2|1|1|2|1|2|2|3|3|1|0|1|2|0|0|0|1|1|0|1|0|1|4|0|0|2|0|1|0|0|1|2|1|1|0|1|1|2|1|0|1|1|1|1|0|0|1</HistCounts>
+          </HistItem>
+        </Histograms>
+        <Metadata>
+          <MDI key="STATISTICS_MAXIMUM">5.039999961853</MDI>
+          <MDI key="STATISTICS_MEAN">2.832916662097</MDI>
+          <MDI key="STATISTICS_MINIMUM">1.2000000476837</MDI>
+          <MDI key="STATISTICS_STDDEV">1.1560672494952</MDI>
+        </Metadata>
+      </PAMRasterBand>
+      <PAMRasterBand band="2">
+        <Histograms>
+          <HistItem>
+            <HistMin>0.007812498428393155</HistMin>
+            <HistMax>2.182187586731743</HistMax>
+            <BucketCount>48</BucketCount>
+            <IncludeOutOfRange>0</IncludeOutOfRange>
+            <Approximate>0</Approximate>
+            <HistCounts>5|6|6|7|4|7|2|1|4|0|1|0|0|0|2|0|1|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1</HistCounts>
+          </HistItem>
+        </Histograms>
+        <Metadata>
+          <MDI key="STATISTICS_MAXIMUM">2.1600000858307</MDI>
+          <MDI key="STATISTICS_MEAN">0.27583333543347</MDI>
+          <MDI key="STATISTICS_MINIMUM">0.029999999329448</MDI>
+          <MDI key="STATISTICS_STDDEV">0.33435781186981</MDI>
+        </Metadata>
+      </PAMRasterBand>
+      <PAMRasterBand band="3">
+        <Histograms>
+          <HistItem>
+            <HistMin>-0.0004166666573534409</HistMin>
+            <HistMax>0.04041666576328377</HistMax>
+            <BucketCount>48</BucketCount>
+            <IncludeOutOfRange>0</IncludeOutOfRange>
+            <Approximate>0</Approximate>
+            <HistCounts>29|0|0|0|0|0|0|0|0|0|0|0|10|0|0|0|0|0|0|0|0|0|0|0|3|0|0|0|0|0|0|0|0|0|0|5|0|0|0|0|0|0|0|0|0|0|0|1</HistCounts>
+          </HistItem>
+        </Histograms>
+        <Metadata>
+          <MDI key="STATISTICS_MAXIMUM">0.03999999910593</MDI>
+          <MDI key="STATISTICS_MEAN">0.0072916665036852</MDI>
+          <MDI key="STATISTICS_MINIMUM">0</MDI>
+          <MDI key="STATISTICS_STDDEV">0.010942954744297</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+</PAMDataset>

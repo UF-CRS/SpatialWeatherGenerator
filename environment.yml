@@ -1,0 +1,18 @@
+name: sgen
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pandas
+  - geopandas
+  - xarray
+  - rioxarray
+  - matplotlib
+  - numpy
+  - conda-build
+  - ca-certificates
+  - certifi
+  - openssl
+  - pytest
+  - ffmpeg
+prefix: /home/george/miniconda3/envs/sgen
