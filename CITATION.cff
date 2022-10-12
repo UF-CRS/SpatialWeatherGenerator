@@ -1,0 +1,15 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Spatial Stochastic Weather Generator
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: George
+    family-names: Worrall
+    email: gworrall@ufl.edu
+    affiliation: University of Florida
+    orcid: 'https://orcid.org/0000-0002-3885-4795'
