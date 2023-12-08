@@ -1,7 +1,6 @@
 name: sgen
 channels:
   - conda-forge
-  - defaults
 dependencies:
   - pandas
   - geopandas
@@ -14,5 +13,3 @@ dependencies:
   - certifi
   - openssl
   - pytest
-  - ffmpeg
-prefix: /home/george/miniconda3/envs/sgen

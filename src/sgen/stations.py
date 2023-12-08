@@ -340,6 +340,7 @@ class StationCollection:
             z_t = (PHI @ z_t + B @ e[t]) / (np.sqrt(1 + self.eigval_sum[month - 1]))
             residuals[t] = z_t
             t += 1
+            date = date + day
         return residuals
 
     def generate_uniform_RV_from_correlated_normal(
